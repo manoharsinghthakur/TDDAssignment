@@ -24,7 +24,6 @@ public class CalculatorTest {
 	public void shouldReturnZeroWhenInputIsEmpty() {
 		Calculator calculator = new Calculator();
 		Assert.assertEquals(0, calculator.add(""));
-
 	}
 
 	@Test
